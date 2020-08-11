@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: guestbook-app-latest
-  namespace: open-cluster-management
+  namespace: guestbook-demo
 spec:
   type: GitHub
   pathname: https://github.com/ggoksu/guestbook.git
